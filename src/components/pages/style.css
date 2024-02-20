@@ -7,6 +7,13 @@
     background: rgb(220,204,192);
 }
 
+.nav-link {
+  color: black; /* Default font color */
+}
+
+.nav-link.active {
+  color: rgb(182,181,126); /* Font color for active links */
+}
   
 .img-thumbnail {
     display: inline-block!important;
@@ -29,22 +36,21 @@
     text-align: center;
 }
 
-
+/* 
 .carousel-item img {
     max-width: 35%;
+    align-items: center;
 }
-
+ */
 
 .footer {
-
 left: 0;
 bottom: 0;
 height: 30px; 
 padding: 50px
-    
-  }
+}
   .footer a {
-    color: #70726F;
+    color: rgb(182,181,126);
     font-size: 20px;
     padding: 10px;
     border-right:1px solid #70726F;

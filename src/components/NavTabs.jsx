@@ -10,6 +10,7 @@ function NavTabs(props) {
           className={
             props.currentPage === 'Home' ? 'nav-link active' : 'nav-link'
           }
+          style={{ color: props.currentPage === 'Home' ? 'rgb(182,181,126)' : 'black' }}
         >
           Home
         </a>
@@ -21,6 +22,7 @@ function NavTabs(props) {
           className={
             props.currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'
           }
+          style={{ color: props.currentPage === 'Portfolio' ? 'rgb(182,181,126)' : 'black' }}
         >
           Portfolio
         </a>
@@ -32,6 +34,7 @@ function NavTabs(props) {
           className={
             props.currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
           }
+          style={{ color: props.currentPage === 'Contact' ? 'rgb(182,181,126)' : 'black' }}
         >
           Contact
         </a>
