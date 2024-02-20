@@ -81,7 +81,7 @@ export default function App() {
         <Carousel.Item interval={1500}> 
           <img 
             className="d-block w-100"
-src="./public/Portfolio1 2.jpg"
+src="./Portfolio1 2.jpg"
             alt="Image One"
           /> 
           {/* <Carousel.Caption> 
@@ -92,7 +92,7 @@ src="./public/Portfolio1 2.jpg"
         <Carousel.Item interval={1500}> 
           <img 
             className="d-block w-100"
-src="./public/Portfolio-html.jpg"
+src="./Portfolio-html.jpg"
             alt="Image Two"
           /> 
           {/* <Carousel.Caption> 
@@ -103,7 +103,7 @@ src="./public/Portfolio-html.jpg"
         <Carousel.Item interval={1500}> 
           <img 
             className="d-block w-100"
-src="./public/Portfolio3.jpg"
+src="./Portfolio3.jpg"
             alt="Image One"
           /> 
           
@@ -115,7 +115,7 @@ src="./public/Portfolio3.jpg"
         <Carousel.Item interval={1500}> 
           <img 
             className="d-block w-100"
-src="./public/Portfolio4.png"
+src="./Portfolio4.png"
             alt="Image One"
           /> 
           
@@ -128,7 +128,7 @@ src="./public/Portfolio4.png"
         <Carousel.Item interval={1500}> 
           <img 
             className="d-block w-100"
-src="./public/Portfolio6.png"
+src="./Portfolio6.png"
             alt="Image One"
           /> 
           {/* <Carousel.Caption> 
@@ -139,7 +139,7 @@ src="./public/Portfolio6.png"
         <Carousel.Item interval={1500}> 
           <img 
             className="d-block w-100"
-src="./public/Portfolio5.png"
+src="./Portfolio5.png"
             alt="Image One"
           /> 
           {/* <Carousel.Caption> 
