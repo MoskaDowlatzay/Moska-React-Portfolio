@@ -1,33 +1,36 @@
 import React from 'react';
 import "./style.css";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import $ from 'jquery';
 
 const Portfolio = () => {
     return (
   <div>
     <h1>My Work</h1>
     <h2>A few examples of projects I have completed</h2>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner text-center">
-    <div class="carousel-item active">
-      <img class=" w-100" src="./assets/me.jpg" alt="First slide"/>
+    <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+  <div className="carousel-inner text-center">
+    <div className="carousel-item active">
+      <img src="./assets/portfolio1.png" alt="First slide"/>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-40" src="./assets/me.jpg" alt="Second slide"/>
+    <div className="carousel-item">
+      <img src="./assets/me.jpg" alt="Second slide"/>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-40" src="./assets/me.jpg" alt="Third slide"/>
+    <div className="carousel-item">
+      <img src="./assets/bowtie-cat.png" alt="Third slide"/>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
+  <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
+  <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="sr-only">Next</span>
   </a>
-</div>  </div>
+</div>  
+</div>
   );
     };
 
