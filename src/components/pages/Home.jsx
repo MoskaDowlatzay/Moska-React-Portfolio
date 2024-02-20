@@ -9,7 +9,7 @@ const Home = () => (
     <br></br> that I have completed so far. This is a simple application 
     <br></br>to demonstrate the use of creating a portfolio using React.
     </p>    
-    <img src="./assets/remove-portfolio.png" alt="..." className="img-thumbnail"></img>
+    <img src="./public/remove-portfolio.png" alt="..." className="img-thumbnail"></img>
   </div>
 );
 
