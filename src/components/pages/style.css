@@ -1,5 +1,4 @@
 * {
-    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
     font-family: "Pompiere", sans-serif;
@@ -8,11 +7,11 @@
 }
 
 .nav-link {
-  color: black; /* Default font color */
+  color: black;
 }
 
 .nav-link.active {
-  color: rgb(182,181,126); /* Font color for active links */
+  color: rgb(182,181,126); 
 }
   
 .img-thumbnail {
@@ -35,13 +34,6 @@
 .homeH1 {
     text-align: center;
 }
-
-/* 
-.carousel-item img {
-    max-width: 35%;
-    align-items: center;
-}
- */
 
 .footer {
 left: 0;
