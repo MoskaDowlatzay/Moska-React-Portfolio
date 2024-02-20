@@ -2,11 +2,14 @@ import React from 'react';
 
 const Home = () => (
   <div>
-    <h1>Welcome</h1>
-    <p>
-    My name is Moska Dowlatzay and I am a Junior Web Developer. This website serves as my portfolio to showcase some of the projects that I have completed so farThis is a simple application to demonstrate the use of creating a portfolio using React.
-
-    </p>
+    <h1 class="homeH1">Welcome</h1>
+    <p class= "homeP">
+    My name is Moska Dowlatzay I am a Junior Web Developer.
+    <br></br> This website serves as my portfolio to showcase my projects
+    <br></br> that I have completed so far. This is a simple application 
+    <br></br>to demonstrate the use of creating a portfolio using React.
+    </p>    
+    <img src="./assets/remove-portfolio.png" alt="..." class="img-thumbnail"></img>
   </div>
 );
 
